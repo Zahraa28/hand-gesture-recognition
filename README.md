@@ -31,6 +31,14 @@ This project classifies **10 different hand gestures**:
 - Structure: Each person's folder contains 10 subfolders (01_palm, 02_l, ..., 10_down)
 - Images are grayscale and resized to `64x64` pixels
 
+## 🧱 Model Architecture
+
+The CNN model includes:
+- 2 convolutional layers + MaxPooling
+- Dropout for regularization
+- Flatten and Dense layers
+- Output layer with softmax activation (10 classes)
+
 ## 🔥 Results  
 🔹 **Training Accuracy**: 99.72%  
 🔹 **Validation Accuracy**: 100%
